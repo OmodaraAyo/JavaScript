@@ -7,5 +7,6 @@ function sumMultiplesOfThreeAndFive(number){
 	}
 	return output;
 }
+module.exports = {sumMultiplesOfThreeAndFive};
 
 console.log(sumMultiplesOfThreeAndFive([1,2,3,4,5]));
