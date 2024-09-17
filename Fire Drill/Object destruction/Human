@@ -1,0 +1,16 @@
+function info(Object){
+	for(let X in Object){
+		return cons(X);
+	}
+
+}
+function cons(obj){
+console.log(obj);
+return "";
+}
+
+let Human = new Object();
+Human.FirstName = "John";
+Human.LastName = "Doe";
+Human.age = 25;
+console.log(info(Human));
