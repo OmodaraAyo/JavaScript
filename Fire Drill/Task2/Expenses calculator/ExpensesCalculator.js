@@ -1,9 +1,15 @@
 function expensesCalculator(objects){
+	const values = Object.values(objects);
 	total = 0;
-	for(let i = 0; i < objects.length; i++){
-		total += objects.get[i];
+	for(let i = 0; i < values.length; i++){
+		total += values[i];
 	}
 	return total;
 }
-
-console.log(expensesCalculator({'groceries': 150, 'dinning': 20, 'transpotation': 500}));
+module.exports = {expensesCalculator};
+//const values = Object.values(objects);
+//	total = 0;
+//	values.forEach(value =>{
+//		total += value;
+//	})
+//	return total;
