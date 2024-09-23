@@ -1,0 +1,1 @@
+const {indexAdditon} = ("./ IndexAddition.js")
