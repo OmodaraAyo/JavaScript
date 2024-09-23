@@ -1,5 +1,6 @@
 function classTiming (time){
-	return time.filter((time) => time.includes("pm"))
+	dayTime = "PM"
+	return time.filter((time) => time.toLowerCase().includes(dayTime.toLowerCase()))
 }
 
-console.log(classTiming(["9:00am","11:00am","1:00pm","3:00pm","5:00pm"]));
+console.log(classTiming(["9:00am","11:00am","1:00Pm","3:00pm","5:00pm"]));
